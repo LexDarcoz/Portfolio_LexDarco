@@ -4,17 +4,17 @@
 
     <v-container fluid>
       <v-row>
-        <v-col cols="6">
+        <v-col cols="12">
           <v-img src="../../public/pictures/LexsIT_logo_transparant.png" contain max-height="500"></v-img>
         </v-col>
-        <v-col cols="6">
-          <h5 class="red--text text--darken-4 top">Hello I'm Alexander Schatteman</h5>
-          <h1 class="white--text">Software developer</h1>
+        <v-col cols="12" class="center">
+          <h4 class="red--text text--darken-4">Software developer</h4>
+          <h1 class="white--text">Hello I'm Alexander Schatteman</h1>
           <p class="grey--text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, nihil! Enim, sequi. Quas eveniet consequuntur ea pariatur dolorum vitae dolorem odio quod, dicta beatae sapiente, culpa
-            tempora praesentium ducimus similique.
+            👋 Hey there! I'm Alexander Schatteman, <br />
+            a software developer fueled by passion and innovation.
           </p>
-          <v-btn tile color="#A7121D" dark>about me</v-btn>
+          <v-btn tile color="#A7121D" dark> about me </v-btn>
         </v-col>
         <v-col cols="12" class="padd">
           <div class="first" id="projects">
@@ -22,29 +22,153 @@
               <v-col cols="12">
                 <div class="child bgColor1">
                   <v-icon color="#A7121D" x-large class="ml-3">mdi-palette-swatch</v-icon>
-                  <h3 class="white--text ml-3mt-4">UI Design</h3>
-                  <p class="grey--text ml-3 mt-6">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  </p>
-                  <v-btn color="#A7121D" dark text
-                    >know more
+                  <h3 class="white--text ml-3 mt-4">Front-end development</h3>
+                  <p class="grey--text ml-3 mt-6">Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit.</p>
+                  <v-btn color="#A7121D" dark text>
+                    know more
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="child bgColor2">
-                  <v-icon x-large class="ml-3" dark>mdi-shopping</v-icon>
-                  <h3 class="white--text ml-3 mt-4">Product Design</h3>
-                  <p class="grey--text ml-3 mt-6">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  </p>
-                  <v-btn color="#A7121D" dark text
-                    >know more
+                  <v-icon color="" x-large class="ml-3" dark>mdi-shopping</v-icon>
+                  <h3 class="white--text ml-3 mt-4">Problem solving</h3>
+                  <p class="grey--text ml-3 mt-6">Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit.</p>
+                  <v-btn color="" dark text>
+                    know more
+                    <v-icon right>mdi-arrow-right</v-icon>
+                  </v-btn>
+                </div>
+                <div class="child bgColor1">
+                  <v-icon color="#A7121D" x-large class="ml-3">mdi-book-open-page-variant</v-icon>
+                  <h3 class="white--text ml-3 mt-4">Back-end development</h3>
+                  <p class="grey--text ml-3 mt-6">Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit.</p>
+                  <v-btn color="#A7121D" dark text>
+                    know more
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
               </v-col>
+              <v-col cols="12" class="mt-10">
+                <div class="child1">
+                  <h1 class="red--text text--darken-4 mt-4 number">3</h1>
+                  <h3 class="white--text mt-4">Years Experience</h3>
+                </div>
+                <div class="child2 mRight">
+                  <v-row>
+                    <v-col cols="12" class="childcol">
+                      <div class="child2 mButton padding bgColor1">
+                        <h1 class="red--text text--darken-4">2+</h1>
+                        <p class="grey--text">Clients</p>
+                      </div>
+                    </v-col>
+                    <v-col cols="12" class="childcol">
+                      <div class="child2 padding bgColor1">
+                        <h1 class="red--text text--darken-4">08</h1>
+                        <p class="grey--text">Completed Projects</p>
+                      </div>
+                    </v-col>
+                  </v-row>
+                </div>
+                <div class="child2">
+                  <v-row>
+                    <v-col cols="12" class="childcol">
+                      <div class="child2 mButton padding bgColor1">
+                        <h1 class="red--text text--darken-4">3</h1>
+                        <p class="grey--text">Years Experience</p>
+                      </div>
+                    </v-col>
+                    <v-col cols="12" class="childcol">
+                      <div class="child2 padding bgColor1">
+                        <h1 class="red--text text--darken-4">10</h1>
+                        <p class="grey--text">Achievements</p>
+                      </div>
+                    </v-col>
+                  </v-row>
+                </div>
+              </v-col>
             </v-row>
           </div>
+        </v-col>
+        <v-col md="3" offset-md="3" id="projects">
+          <h4 class="white--text">FEATURED PROJECTS</h4>
+          <p class="grey--text">Lorem ipsum dolor Lorem ipsum dolor</p>
+        </v-col>
+        <v-col md="3" class="text-end">
+          <v-btn tile color="#A7121D" dark> View All </v-btn>
+        </v-col>
+        <v-col md="3" offset-md="3">
+          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
+            <v-img src="3.png" contain max-height=""></v-img>
+          </v-card>
+        </v-col>
+        <v-col md="3">
+          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
+            <v-img src="2.png" contain max-height=""></v-img>
+          </v-card>
+        </v-col>
+        <v-col md="3" offset-md="3">
+          <v-btn color="white" dark text class="ml-n4"> The Vintage </v-btn><br />
+
+          <v-btn color="#A7121D" dark text class="ml-n4">
+            know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+        <v-col md="3">
+          <v-btn color="white" dark text class="ml-n4"> Foodasa </v-btn><br />
+
+          <v-btn color="#A7121D" dark text class="ml-n4">
+            know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+        <v-col md="3" offset-md="3">
+          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
+            <v-img src="4.png" contain max-height=""></v-img>
+          </v-card>
+        </v-col>
+        <v-col md="3">
+          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
+            <v-img src="5.png" contain max-height=""></v-img>
+          </v-card>
+        </v-col>
+        <v-col md="3" offset-md="3">
+          <v-btn color="white" dark text class="ml-n4"> AAE IdeaPro </v-btn><br />
+
+          <v-btn color="#A7121D" dark text class="ml-n4">
+            know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+        <v-col md="3">
+          <v-btn color="white" dark text class="ml-n4"> Mozaik </v-btn><br />
+          <v-btn color="#A7121D" dark text class="ml-n4">
+            know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+        <v-col cols="12" class="padd topInverse">
+          <div class="second">
+            <div class="secondchild1" id="contact">
+              <v-row>
+                <v-col cols="7">
+                  <h1 class="white--text">Let's work together on<br />your next project</h1>
+                  <p class="grey--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nesciunt ducimus natus <br /></p>
+                </v-col>
+                <v-col cols="5">
+                  <v-btn tile color="#A7121D" dark class="mt-16"> Contact </v-btn>
+                </v-col>
+              </v-row>
+            </div>
+          </div>
+          <v-toolbar class="topToolbar" color="#111111" dark flat>
+            <div style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center">
+              <v-btn text>Home</v-btn>
+              <v-btn text>Project</v-btn>
+              <v-btn text>about</v-btn>
+              <v-btn text>contact</v-btn>
+            </div>
+          </v-toolbar>
         </v-col>
       </v-row>
     </v-container>
@@ -79,7 +203,6 @@ export default {
   text-align: center;
   padding: 2rem 2rem;
 }
-
 .second {
   width: 100%;
   height: 400px;
@@ -87,23 +210,25 @@ export default {
   text-align: center;
   padding: 2rem 2rem;
 }
-
 .secondchild1 {
   display: inline-block;
-  background: #1e1e1e;
+  background-color: #1e1e1e;
   padding: 2rem 1rem;
   vertical-align: middle;
   text-align: left;
   margin-top: 250px;
 }
-
 .child {
   display: inline-block;
   padding: 2rem 1rem;
   vertical-align: middle;
   text-align: left;
   margin-right: 8px;
-  height: 250px;
+}
+.center {
+  text-align: center;
+  font-size: larger;
+  padding: 2rem 2rem;
 }
 .bgColor1 {
   background-color: #1e1e1e;
@@ -119,30 +244,27 @@ export default {
   margin-right: 5px;
   width: 240px;
 }
-.child1 {
+.child2 {
   display: inline-block;
-  vertical-align: middle;
   width: 245px;
+  vertical-align: middle;
 }
-
-.mright {
+.mRight {
   margin-right: 8px;
 }
-.mBottom {
+.mButton {
   margin-bottom: 8px;
 }
-
 .padding {
-  padding: 8px 0px;
+  padding: 8px 0;
 }
+
 .col-12.padd {
   padding: 12px 0 !important;
 }
-
 .col-12.childcol {
   padding: 0 !important;
 }
-
 h1.number {
   font-size: 50px;
   font-weight: bold;
