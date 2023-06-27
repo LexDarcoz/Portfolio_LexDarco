@@ -2,12 +2,13 @@
   <v-app :style="{ background: $vuetify.theme.themes.dark.background }"
     ><NavbarHome />
 
+    import TodoListComponent from '@/components/TodoListComponent.vue';
     <v-container fluid>
-      <v-row>
+      <v-row id="home">
         <v-col cols="12">
           <v-img src="../../public/pictures/LexsIT_logo_transparant.png" contain max-height="500"></v-img>
         </v-col>
-        <v-col cols="12" class="  ">
+        <v-col cols="12" class="center">
           <h4 class="red--text text--darken-4">Software developer</h4>
           <h1 class="white--text">Hello I'm Alexander Schatteman</h1>
           <p class="grey--text">
@@ -17,7 +18,7 @@
           <v-btn tile color="#A7121D" dark> about me </v-btn>
         </v-col>
         <v-col cols="12" class="padd">
-          <div class="first" id="projects">
+          <div class="first">
             <v-row>
               <v-col cols="12">
                 <div class="child bgColor1">
@@ -89,7 +90,7 @@
             </v-row>
           </div>
         </v-col>
-        <v-col md="3" offset-md="3" id="projects">
+        <v-col id="projects" md="3" offset-md="3">
           <h4 class="white--text">FEATURED PROJECTS</h4>
           <p class="grey--text">Lorem ipsum dolor Lorem ipsum dolor</p>
         </v-col>
@@ -172,6 +173,7 @@
         </v-col>
       </v-row>
     </v-container>
+    <TodoListComponent />
     <FooterHome />
   </v-app>
 </template>
@@ -179,11 +181,13 @@
 <script>
 import NavbarHome from '../components/NavbarHome.vue';
 import FooterHome from '../components/FooterHome.vue';
+import TodoListComponent from '../components/TodoListComponent.vue';
 export default {
   name: 'HomeLanding',
   components: {
     NavbarHome,
     FooterHome,
+    TodoListComponent,
   },
 };
 </script>
