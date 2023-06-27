@@ -7,7 +7,7 @@
         <v-col cols="12">
           <v-img src="../../public/pictures/LexsIT_logo_transparant.png" contain max-height="500"></v-img>
         </v-col>
-        <v-col cols="12" class="center">
+        <v-col cols="12" class="  ">
           <h4 class="red--text text--darken-4">Software developer</h4>
           <h1 class="white--text">Hello I'm Alexander Schatteman</h1>
           <p class="grey--text">
@@ -172,16 +172,18 @@
         </v-col>
       </v-row>
     </v-container>
+    <FooterHome />
   </v-app>
 </template>
 
 <script>
 import NavbarHome from '../components/NavbarHome.vue';
+import FooterHome from '../components/FooterHome.vue';
 export default {
   name: 'HomeLanding',
-
   components: {
     NavbarHome,
+    FooterHome,
   },
 };
 </script>
