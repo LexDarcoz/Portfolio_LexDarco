@@ -1,8 +1,6 @@
 <template>
   <v-app :style="{ background: $vuetify.theme.themes.dark.background }"
     ><NavbarHome />
-
-    import TodoListComponent from '@/components/TodoListComponent.vue';
     <v-container fluid>
       <v-row id="home">
         <v-col cols="12">
@@ -11,7 +9,7 @@
         <v-col cols="12" class="center">
           <h4 class="red--text text--darken-4">Software developer</h4>
           <h1 class="white--text">Hello I'm Alexander Schatteman</h1>
-          <p class="grey--text">
+          <p class="grey--text" id="about">
             👋 Hey there! I'm Alexander Schatteman, <br />
             a software developer fueled by passion and innovation.
           </p>
@@ -79,7 +77,7 @@
                       </div>
                     </v-col>
                     <v-col cols="12" class="childcol">
-                      <div class="child2 padding bgColor1">
+                      <div class="child2 padding bgColor1" id="projects">
                         <h1 class="red--text text--darken-4">10</h1>
                         <p class="grey--text">Achievements</p>
                       </div>
@@ -90,7 +88,7 @@
             </v-row>
           </div>
         </v-col>
-        <v-col id="projects" md="3" offset-md="3">
+        <v-col md="3" offset-md="3">
           <h4 class="white--text">FEATURED PROJECTS</h4>
           <p class="grey--text">Lorem ipsum dolor Lorem ipsum dolor</p>
         </v-col>
@@ -164,16 +162,16 @@
           </div>
           <v-toolbar class="topToolbar" color="#111111" dark flat>
             <div style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center">
-              <v-btn text>Home</v-btn>
-              <v-btn text>Project</v-btn>
-              <v-btn text>about</v-btn>
-              <v-btn text>contact</v-btn>
+              <v-btn text @click="scroll('home')">Home</v-btn>
+              <v-btn text @click="scroll('about')">About</v-btn>
+              <v-btn text @click="scroll('projects')">Projects</v-btn>
+              <v-btn text @click="scroll('contact')">Contact</v-btn>
             </div>
           </v-toolbar>
         </v-col>
       </v-row>
     </v-container>
-    <TodoListComponent />
+
     <FooterHome />
   </v-app>
 </template>
@@ -181,13 +179,18 @@
 <script>
 import NavbarHome from '../components/NavbarHome.vue';
 import FooterHome from '../components/FooterHome.vue';
-import TodoListComponent from '../components/TodoListComponent.vue';
+
 export default {
+  methods: {
+    scroll(refName) {
+      const element = document.getElementById(refName);
+      element.scrollIntoView({ behavior: 'smooth' });
+    },
+  },
   name: 'HomeLanding',
   components: {
     NavbarHome,
     FooterHome,
-    TodoListComponent,
   },
 };
 </script>

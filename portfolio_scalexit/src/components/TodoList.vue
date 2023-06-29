@@ -1,5 +1,5 @@
 <template>
-  <v-container style="max-width: 500px">
+  <v-container style="max-width: 500px" class="white--text">
     <v-text-field v-model="newTask" label="What are you working on?" variant="solo" @keydown.enter="create">
       <template v-slot:append-inner>
         <v-fade-transition>
