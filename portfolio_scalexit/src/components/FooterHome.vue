@@ -10,7 +10,7 @@
         <v-col cols="12" sm="4"
           ><v-card-text class="pt-2"
             ><v-btn v-for="icon in icons" :key="icon" class="mx-1 white--text" icon>
-              <a href="${icon.link}"
+              <a :href="icon.link"
                 ><v-icon size="24px"> {{ icon.name }}</v-icon></a
               >
             </v-btn></v-card-text
