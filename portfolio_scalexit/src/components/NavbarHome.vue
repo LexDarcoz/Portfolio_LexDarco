@@ -1,8 +1,9 @@
 <template>
   <v-app-bar app color="#111111" dark flat class="px-8">
-    <v-btn icon>
-      <v-icon color="#A7121D">Home</v-icon>
+    <v-btn>
+      <v-icon rel="icon" type="image/x-icon" href="../../public/pictures/LexsIT-1-logo-black.ico"> </v-icon>
     </v-btn>
+
     <v-spacer></v-spacer>
     <v-btn text @click="scroll('home')">Home</v-btn>
     <v-btn text @click="scroll('about')">About</v-btn>

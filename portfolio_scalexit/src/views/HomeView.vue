@@ -17,86 +17,83 @@
         </v-col>
         <v-col cols="12" class="padd">
           <div class="first">
-            <v-row>
-              <v-col cols="12">
-                <div class="child bgColor1">
-                  <v-icon color="#A7121D" x-large class="ml-3">mdi-palette-swatch</v-icon>
-                  <h3 class="white--text ml-3 mt-4">Java</h3>
-                  <p class="grey--text ml-3 mt-6">
-                    This is the first programming language <br />
-                    I came in contact with and held it dear since
-                  </p>
-                  <v-btn color="#A7121D" dark text>
-                    know more
-                    <v-icon right>mdi-arrow-right</v-icon>
-                  </v-btn>
-                </div>
-                <div class="child bgColor2">
-                  <v-icon color="" x-large class="ml-3" dark>mdi-shopping</v-icon>
-                  <h3 class="white--text ml-3 mt-4">Problem solving</h3>
-                  <p class="grey--text ml-3 mt-6">Problem solving is very current in today's world <br /></p>
-                  <v-btn color="" dark text>
-                    know more
-                    <v-icon right>mdi-arrow-right</v-icon>
-                  </v-btn>
-                </div>
-                <div class="child bgColor1">
-                  <v-icon color="#A7121D" x-large class="ml-3">mdi-book-open-page-variant</v-icon>
-                  <h3 class="white--text ml-3 mt-4">Back-end development</h3>
-                  <p class="grey--text ml-3 mt-6">Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit.</p>
-                  <v-btn color="#A7121D" dark text>
-                    know more
-                    <v-icon right>mdi-arrow-right</v-icon>
-                  </v-btn>
-                </div>
-              </v-col>
+            <v-col cols="12">
+              <div class="child bgColor1">
+                <v-icon color="#A7121D" x-large class="ml-3">mdi-react</v-icon>
+                <h3 class="white--text ml-3 mt-4">Soft skills</h3>
+                <p class="grey--text ml-3 mt-6">Effective communication is crucial for collaboration and teamwork.</p>
+                <v-btn color="#A7121D" dark text>
+                  know more
+                  <v-icon right>mdi-arrow-right</v-icon>
+                </v-btn>
+              </div>
 
-              <v-col cols="12" class="mt-10">
-                <div class="child1">
-                  <h1 class="red--text text--darken-4 mt-4 number">3rd</h1>
-                  <h3 class="white--text mt-4">Year Of Bachelor In Applied Informatics</h3>
-                </div>
-                <div class="child2 mRight">
-                  <v-row>
-                    <v-col cols="12" class="childcol">
-                      <div class="child2 mButton padding bgColor1">
-                        <h1 class="red--text text--darken-4">2+</h1>
-                        <p class="grey--text">Clients</p>
-                      </div>
-                    </v-col>
-                    <v-col cols="12" class="childcol">
-                      <div class="child2 padding bgColor1">
-                        <h1 class="red--text text--darken-4">08</h1>
-                        <p class="grey--text">Completed Projects</p>
-                      </div>
-                    </v-col>
-                  </v-row>
-                </div>
-                <div class="child2">
-                  <v-row>
-                    <v-col cols="12" class="childcol">
-                      <div class="child2 mButton padding bgColor1">
-                        <h1 class="red--text text--darken-4">3</h1>
-                        <p class="grey--text">Year experience</p>
-                      </div>
-                    </v-col>
-                    <v-col cols="12" class="childcol">
-                      <div class="child2 padding bgColor1" id="projects">
-                        <h1 class="red--text text--darken-4">03</h1>
-                        <p class="grey--text">Achievements</p>
-                      </div>
-                    </v-col>
-                  </v-row>
-                </div>
-              </v-col>
-            </v-row>
+              <div class="child bgColor2">
+                <v-icon color="white" x-large class="ml-3">mdi-code-braces</v-icon>
+                <h3 class="white--text ml-3 mt-4">Programming skills</h3>
+                <p class="grey--text ml-3 mt-6">Click here to find out what programming languages I am good at! <br /></p>
+                <v-btn color="" dark text>
+                  know more
+                  <v-icon right>mdi-arrow-right</v-icon>
+                </v-btn>
+              </div>
+              <div class="child bgColor1">
+                <v-icon color="#A7121D" x-large class="ml-3">mdi-book-open-page-variant</v-icon>
+                <h3 class="white--text ml-3 mt-4">My education</h3>
+                <p class="grey--text ml-3 mt-6">I am currently studying for my bachelor's degree in applied informatics.</p>
+                <v-btn color="#A7121D" dark text>
+                  know more
+                  <v-icon right>mdi-arrow-right</v-icon>
+                </v-btn>
+              </div>
+            </v-col>
+
+            <v-col cols="12" class="mt-10">
+              <div class="child1">
+                <h1 class="red--text text--darken-4 mt-4 number">3rd</h1>
+                <h3 class="white--text mt-4">Year Of Bachelor In Applied Informatics</h3>
+              </div>
+              <div class="child2 mRight">
+                <v-row>
+                  <v-col cols="12" class="childcol">
+                    <div class="child2 mButton padding bgColor1">
+                      <h1 class="red--text text--darken-4">2+</h1>
+                      <p class="grey--text">Clients</p>
+                    </div>
+                  </v-col>
+                  <v-col cols="12" class="childcol">
+                    <div class="child2 padding bgColor1">
+                      <h1 class="red--text text--darken-4">08</h1>
+                      <p class="grey--text">Completed Projects</p>
+                    </div>
+                  </v-col>
+                </v-row>
+              </div>
+              <div class="child2">
+                <v-row>
+                  <v-col cols="12" class="childcol">
+                    <div class="child2 mButton padding bgColor1">
+                      <h1 class="red--text text--darken-4">3</h1>
+                      <p class="grey--text">Year experience</p>
+                    </div>
+                  </v-col>
+                  <v-col cols="12" class="childcol">
+                    <div class="child2 padding bgColor1" id="projects">
+                      <h1 class="red--text text--darken-4">03</h1>
+                      <p class="grey--text">Achievements</p>
+                    </div>
+                  </v-col>
+                </v-row>
+              </div>
+            </v-col>
           </div>
         </v-col>
-        <v-col md="3" offset-md="3">
+
+        <v-col md="3" offset-md="3" style="margin-top: 50px">
           <h4 class="white--text">FEATURED PROJECTS</h4>
           <p class="grey--text">Here you can find all my past and future projects!</p>
         </v-col>
-        <v-col md="3" class="text-end">
+        <v-col md="3" class="text-end" style="margin-top: 50px">
           <v-btn tile color="#A7121D" dark> View All </v-btn>
         </v-col>
         <v-col md="3" offset-md="3">
@@ -125,6 +122,7 @@
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
+
         <v-col md="3" offset-md="3">
           <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
             <v-img src="4.png" contain max-height=""></v-img>
@@ -155,11 +153,11 @@
             <div class="secondchild1" id="contact">
               <v-row>
                 <v-col cols="7">
-                  <h1 class="white--text">Let's work together on<br />your next project</h1>
-                  <p class="grey--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nesciunt ducimus natus <br /></p>
+                  <h1 class="white--text">Let's work together on your next project</h1>
+                  <p class="grey--text">Click this link to send me an email directly!</p>
                 </v-col>
                 <v-col cols="5">
-                  <v-btn tile color="#A7121D" dark class="mt-16"> Contact </v-btn>
+                  <a href="mailto:alexander.lexsit@gmail.com"><v-btn tile color="#A7121D" dark class="mt-16"> Contact </v-btn></a>
                 </v-col>
               </v-row>
             </div>
@@ -237,6 +235,10 @@ export default {
   vertical-align: middle;
   text-align: left;
   margin-right: 8px;
+  min-width: 280px;
+  max-width: 280px;
+  min-height: 320px;
+  max-height: 320px;
 }
 .center {
   text-align: center;
