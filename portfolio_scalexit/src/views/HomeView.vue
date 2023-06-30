@@ -21,8 +21,11 @@
               <v-col cols="12">
                 <div class="child bgColor1">
                   <v-icon color="#A7121D" x-large class="ml-3">mdi-palette-swatch</v-icon>
-                  <h3 class="white--text ml-3 mt-4">Front-end development</h3>
-                  <p class="grey--text ml-3 mt-6">Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit.</p>
+                  <h3 class="white--text ml-3 mt-4">Java</h3>
+                  <p class="grey--text ml-3 mt-6">
+                    This is the first programming language <br />
+                    I came in contact with and held it dear since
+                  </p>
                   <v-btn color="#A7121D" dark text>
                     know more
                     <v-icon right>mdi-arrow-right</v-icon>
@@ -31,7 +34,7 @@
                 <div class="child bgColor2">
                   <v-icon color="" x-large class="ml-3" dark>mdi-shopping</v-icon>
                   <h3 class="white--text ml-3 mt-4">Problem solving</h3>
-                  <p class="grey--text ml-3 mt-6">Lorem, ipsum dolor sit amet <br />consectetur adipisicing elit.</p>
+                  <p class="grey--text ml-3 mt-6">Problem solving is very current in today's world <br /></p>
                   <v-btn color="" dark text>
                     know more
                     <v-icon right>mdi-arrow-right</v-icon>
@@ -47,10 +50,11 @@
                   </v-btn>
                 </div>
               </v-col>
+
               <v-col cols="12" class="mt-10">
                 <div class="child1">
-                  <h1 class="red--text text--darken-4 mt-4 number">3</h1>
-                  <h3 class="white--text mt-4">Years Experience</h3>
+                  <h1 class="red--text text--darken-4 mt-4 number">3rd</h1>
+                  <h3 class="white--text mt-4">Year Of Bachelor In Applied Informatics</h3>
                 </div>
                 <div class="child2 mRight">
                   <v-row>
@@ -73,12 +77,12 @@
                     <v-col cols="12" class="childcol">
                       <div class="child2 mButton padding bgColor1">
                         <h1 class="red--text text--darken-4">3</h1>
-                        <p class="grey--text">Years Experience</p>
+                        <p class="grey--text">Year experience</p>
                       </div>
                     </v-col>
                     <v-col cols="12" class="childcol">
                       <div class="child2 padding bgColor1" id="projects">
-                        <h1 class="red--text text--darken-4">10</h1>
+                        <h1 class="red--text text--darken-4">03</h1>
                         <p class="grey--text">Achievements</p>
                       </div>
                     </v-col>
@@ -90,7 +94,7 @@
         </v-col>
         <v-col md="3" offset-md="3">
           <h4 class="white--text">FEATURED PROJECTS</h4>
-          <p class="grey--text">Lorem ipsum dolor Lorem ipsum dolor</p>
+          <p class="grey--text">Here you can find all my past and future projects!</p>
         </v-col>
         <v-col md="3" class="text-end">
           <v-btn tile color="#A7121D" dark> View All </v-btn>
@@ -106,7 +110,7 @@
           </v-card>
         </v-col>
         <v-col md="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-n4"> The Vintage </v-btn><br />
+          <v-btn color="white" dark text class="ml-n4"> Delaware b2b application</v-btn><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
             know more
@@ -114,7 +118,7 @@
           </v-btn>
         </v-col>
         <v-col md="3">
-          <v-btn color="white" dark text class="ml-n4"> Foodasa </v-btn><br />
+          <v-btn color="white" dark text class="ml-n4"> Delaware b2b webapplication </v-btn><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
             know more
@@ -132,7 +136,7 @@
           </v-card>
         </v-col>
         <v-col md="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-n4"> AAE IdeaPro </v-btn><br />
+          <v-btn color="white" dark text class="ml-n4"> Gymder </v-btn><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
             know more
@@ -140,7 +144,7 @@
           </v-btn>
         </v-col>
         <v-col md="3">
-          <v-btn color="white" dark text class="ml-n4"> Mozaik </v-btn><br />
+          <v-btn color="white" dark text class="ml-n4"> Library app</v-btn><br />
           <v-btn color="#A7121D" dark text class="ml-n4">
             know more
             <v-icon right>mdi-arrow-right</v-icon>
