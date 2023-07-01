@@ -6,6 +6,7 @@
         <v-col cols="12">
           <v-img src="../../public/pictures/LexsIT_logo_transparant.png" contain max-height="500"></v-img>
         </v-col>
+        <!-- ABOUT SECTION -->
         <v-col cols="12" class="center">
           <h4 class="red--text text--darken-4">Software developer</h4>
           <h1 class="white--text">Hello I'm Alexander Schatteman</h1>
@@ -48,6 +49,7 @@
               </div>
             </v-col>
 
+            <!-- ADDITIONAL INFO SECTION -->
             <v-col cols="12" class="mt-10">
               <div class="child1">
                 <h1 class="red--text text--darken-4 mt-4 number">3rd</h1>
@@ -89,6 +91,7 @@
           </div>
         </v-col>
 
+        <!-- PROJECTS SECTION -->
         <v-col md="3" offset-md="3" style="margin-top: 50px">
           <h4 class="white--text">FEATURED PROJECTS</h4>
           <p class="grey--text">Here you can find all my past and future projects!</p>
@@ -96,43 +99,53 @@
         <v-col md="3" class="text-end" style="margin-top: 50px">
           <v-btn tile color="#A7121D" dark> View All </v-btn>
         </v-col>
+
+        <!-- DELAWARE PROJECT APP IMAGE -->
         <v-col md="3" offset-md="3">
           <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
-            <v-img src="3.png" contain max-height=""></v-img>
+            <v-img src="/public/pictures/Projects/GymderLogo.jpg" contain max-height=""></v-img>
           </v-card>
         </v-col>
+
+        <!-- DELAWARE PROJECT WEB IMAGE -->
         <v-col md="3">
           <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
             <v-img src="2.png" contain max-height=""></v-img>
           </v-card>
         </v-col>
+
+        <!-- DELAWARE PROJECT -->
         <v-col md="3" offset-md="3">
           <v-btn color="white" dark text class="ml-n4"> Delaware b2b application</v-btn><br />
-
           <v-btn color="#A7121D" dark text class="ml-n4">
             know more
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
+
+        <!-- DELAWARE PROJECT -->
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> Delaware b2b webapplication </v-btn><br />
-
           <v-btn color="#A7121D" dark text class="ml-n4">
             know more
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
 
+        <!-- GYMDER PROJECT -->
         <v-col md="3" offset-md="3">
-          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
-            <v-img src="4.png" contain max-height=""></v-img>
+          <v-card class="" outlined tile height="250px" color="#1E1E1E">
+            <v-img src="../../public/pictures/Projects/GymderLogo.jpg" contain></v-img>
           </v-card>
         </v-col>
+        <!-- LIBRARY PROJECT -->
         <v-col md="3">
-          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
-            <v-img src="5.png" contain max-height=""></v-img>
+          <v-card class="" outlined tile height="250px" color="#1E1E1E">
+            <v-img src="../../public/pictures/Projects/LibraryApp Picture.png" contain max-height="250px" min-width="250px"></v-img>
           </v-card>
         </v-col>
+
+        <!-- GYMDER PROJECT -->
         <v-col md="3" offset-md="3">
           <v-btn color="white" dark text class="ml-n4"> Gymder </v-btn><br />
 
@@ -141,6 +154,8 @@
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
+
+        <!-- LIBRARY PROJECT -->
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> Library app</v-btn><br />
           <v-btn color="#A7121D" dark text class="ml-n4">
@@ -148,6 +163,8 @@
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
+
+        <!-- CONTACT SECTION -->
         <v-col cols="12" class="padd topInverse">
           <div class="second">
             <div class="secondchild1" id="contact">
