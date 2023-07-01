@@ -11,7 +11,7 @@
           ><v-card-text class="pt-2"
             ><v-btn v-for="icon in icons" :key="icon" class="mx-1 white--text" icon>
               <a :href="icon.link"
-                ><v-icon size="24px"> {{ icon.name }}</v-icon></a
+                ><v-icon size="24px" class="white--text"> {{ icon.name }}</v-icon></a
               >
             </v-btn></v-card-text
           ></v-col
@@ -33,10 +33,10 @@
 export default {
   data: () => ({
     icons: [
-      { name: 'mdi-facebook', link: '/facebook' },
-      { name: 'mdi-instagram', link: '/instagram' },
-      { name: 'mdi-linkedin', link: '/linkedin' },
-      { name: 'mdi-github', link: '/github' },
+      { name: 'mdi-facebook', link: 'https://www.facebook.com/profile.php?id=100009950086924' },
+      { name: 'mdi-instagram', link: 'https://www.instagram.com/alexander.schatteman/' },
+      { name: 'mdi-linkedin', link: 'https://www.linkedin.com/in/alexander-schatteman-a20624213/' },
+      { name: 'mdi-github', link: 'https://github.com/LexDarcoz' },
     ],
   }),
 };

@@ -1,14 +1,11 @@
 <template>
   <v-app-bar app color="#111111" dark flat class="px-8">
-    <v-btn>
-      <v-icon rel="icon" type="image/x-icon" href="../../public/pictures/LexsIT-1-logo-black.ico"> </v-icon>
-    </v-btn>
+    <v-img src="../../public/pictures/LexsIT_Logo_Trans.png" contain max-height="60" onclick="" max-width="60"></v-img>
 
     <v-spacer></v-spacer>
     <v-btn text @click="scroll('home')">Home</v-btn>
     <v-btn text @click="scroll('about')">About</v-btn>
     <v-btn text @click="scroll('projects')">Projects</v-btn>
-
     <v-btn text @click="scroll('contact')">Contact</v-btn>
   </v-app-bar>
 </template>
